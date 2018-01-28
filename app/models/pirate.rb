@@ -3,7 +3,7 @@ class Pirate
 
   @@PIRATES = []
 
-  def self.all 
+  def self.all
     @@PIRATES
   end
 end
