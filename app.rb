@@ -11,7 +11,7 @@ module FormsLab
       @pirate = Pirate.new(params[:pirate])
 
       params[:pirates][:ships].each do |details|
-        Pirate.new(details)
+        Ship.new(details)
       end
 
       @ships = Ships.all
